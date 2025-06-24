@@ -1,0 +1,35 @@
+version: 0.0.1
+type: plugin
+author: pangbo
+name: sleep
+label:
+  en_US: sleep
+  ja_JP: sleep
+  zh_Hans: sleep
+  pt_BR: sleep
+description:
+  en_US: Let the workflow sleep for a while.
+  ja_JP: Let the workflow sleep for a while.
+  zh_Hans: Let the workflow sleep for a while.
+  pt_BR: Let the workflow sleep for a while.
+icon: icon.svg
+resource:
+  memory: 268435456
+  permission: {}
+plugins:
+  tools:
+    - provider/sleep.yaml
+meta:
+  version: 0.0.1
+  arch:
+    - amd64
+    - arm64
+  runner:
+    language: python
+    version: "3.12"
+    entrypoint: main
+  minimum_dify_version: null
+created_at: 2025-06-24T14:49:21.0048377+08:00
+privacy: PRIVACY.md
+repo: https://github.com/123banzhang/dify_plugin_sleep
+verified: false

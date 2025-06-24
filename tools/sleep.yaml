@@ -1,0 +1,95 @@
+identity:
+  name: "sleep"
+  author: "pangbo"
+  label:
+    en_US: "sleep"
+    zh_Hans: "睡眠"
+    pt_BR: "sleep"
+description:
+  human:
+    en_US: "Let the workflow sleep for a while."
+    zh_Hans: "让工作流睡一会儿。"
+    pt_BR: "Let the workflow sleep for a while."
+  llm: "Let the workflow sleep for a while."
+parameters:
+  - name: year
+    type: number
+    required: false
+    label:
+      en_US: year
+      zh_Hans: 年
+      pt_BR: year
+    human_description: 
+      en_US: "year"
+      zh_Hans: "年"
+      pt_BR: "year"
+    llm_description: "year"
+    form: llm
+  - name: month
+    type: number
+    required: false
+    label:
+      en_US: month
+      zh_Hans: 月
+      pt_BR: month
+    human_description: 
+      en_US: "month"
+      zh_Hans: "月"
+      pt_BR: "month"
+    llm_description: "month"
+    form: llm
+  - name: day
+    type: number
+    required: false
+    label:
+      en_US: day
+      zh_Hans: 日
+      pt_BR: day
+    human_description:
+      en_US: "day"
+      zh_Hans: "日"
+      pt_BR: "day"
+    llm_description: "day"
+    form: llm
+  - name: hour
+    type: number
+    required: false
+    label:
+      en_US: hour
+      zh_Hans: 小时
+      pt_BR: hour
+    human_description:
+      en_US: "hour"
+      zh_Hans: "小时"
+      pt_BR: "hour"
+    llm_description: "hour."
+    form: llm
+  - name: minute
+    type: number
+    required: false
+    label:
+      en_US: minute
+      zh_Hans: 分钟
+      pt_BR: minute
+    human_description:
+      en_US: "minute"
+      zh_Hans: "分钟"
+      pt_BR: "minute"
+    llm_description: "minute"
+    form: llm
+  - name: second
+    type: number
+    required: false
+    label:
+      en_US: second
+      zh_Hans: 秒
+      pt_BR: second
+    human_description:
+      en_US: "second"
+      zh_Hans: "秒"
+      pt_BR: "second"
+    llm_description: "second"
+    form: llm
+extra:
+  python:
+    source: tools/sleep.py
