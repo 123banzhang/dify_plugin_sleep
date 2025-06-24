@@ -9,7 +9,7 @@ identity:
     en_US: "Let the workflow sleep for a while."
     zh_Hans: "Let the workflow sleep for a while."
     pt_BR: "Let the workflow sleep for a while."
-  icon: "icon.svg"
+  icon: "sleep.svg"
 tools:
   - tools/sleep.yaml
 extra:
