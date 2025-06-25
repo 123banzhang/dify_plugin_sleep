@@ -1,6 +1,6 @@
 ## sleep
 
-**Author:** pangbo
+**Author:** pb
 **Version:** 0.0.1
 **Type:** tool
 
@@ -14,7 +14,7 @@
 sleep 插件是一个让工作流暂停指定时间的工具。它支持多种时间单位（年、月、日、小时、分钟、秒），可以灵活地配置睡眠时间。
 
 ## 作者
-pangbo
+pb
 
 ## 版本
 0.0.1
@@ -73,7 +73,7 @@ Tool
 The sleep plugin is a tool that allows workflows to pause for a specified amount of time. It supports multiple time units (years, months, days, hours, minutes, seconds) and provides flexible control over the sleep duration.
 
 ## Author
-pangbo
+pb
 
 ## Version
 0.0.1
