@@ -1,6 +1,6 @@
 version: 0.0.1
 type: plugin
-author: 123banzhang
+author: pangbo
 name: sleep
 label:
   en_US: sleep
